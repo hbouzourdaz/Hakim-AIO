@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest/download/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
-    <img alt="Latest Version" src="https://img.shields.io/badge/⬇%20تحميل%20أحدث%20إصدار-2EA44F?style=for-the-badge&logo=windows&logoColor=white">
+    <img alt="Latest Version" src="https://img.shields.io/badge/Latest Version?style=for-the-badge&logo=windows&logoColor=white">
   </a>
   &nbsp;
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest">
