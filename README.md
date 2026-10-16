@@ -1,13 +1,8 @@
-from pathlib import Path
-import re
+# Hakim Bouzourdaz — PC Care AIO
 
-src = Path("/mnt/data/README (1).md")
-text = src.read_text(encoding="utf-8")
+واجهة صيانة وتشخيص Windows من خلال CMD، مع قائمة ملونة وأدوات مساعدة في ملف واحد.
 
-start = text.index("## ⬇️ تحميل مباشر")
-end = text.index("## المميزات")
-
-buttons = """## ⬇️ التحميل والروابط
+## ⬇️ التحميل والروابط
 
 <p align="center">
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest/download/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
@@ -25,9 +20,40 @@ buttons = """## ⬇️ التحميل والروابط
 
 > **ملاحظة:** رابط «تحميل أحدث إصدار» يعمل بعد نشر ملف `Hakim_Bouzourdaz_PC_Care_AIO.cmd` ضمن أصول GitHub Release. أما رابط Raw فيحمّل الملف من الفرع `main`.
 
-"""
-text = text[:start] + buttons + text[end:]
+## المميزات
 
-out = Path("/mnt/data/README_Buttons.md")
-out.write_text(text, encoding="utf-8")
-print(out)
+- عرض معلومات الجهاز والنظام.
+- فحص ملفات النظام وأدوات إصلاح Windows.
+- فحص الأقراص وتشخيص الشبكة.
+- معلومات الطاقة والبطارية.
+- أدوات أمان وتنظيف أساسية.
+- خيار **WIN/Office Activation Scripts (MAS)**.
+- خيار **Chris Titus Tech's Windows Utility**.
+
+## التشغيل
+
+1. نزّل ملف `.cmd` إلى جهاز Windows.
+2. راجع محتوى الملف قبل التشغيل.
+3. انقر عليه مرتين لتشغيله. استخدم صلاحيات المسؤول فقط عندما تتطلبها وظيفة محددة.
+4. يوصى باستخدام Windows Terminal أو إصدار حديث من CMD لعرض الألوان بشكل أفضل.
+
+## ملاحظات السلامة
+
+- بعض الخيارات قد تستدعي أدوات خارجية أو تجلب سكريبتات من الإنترنت.
+- افحص أي سكريبت خارجي قبل تشغيله، ولا تشغّل أوامر بعيدة بصلاحيات المسؤول دون مراجعة.
+- لا تضمن معلومات صحة الأقراص أو النظام سلامة العتاد بشكل قطعي.
+- هذا المشروع غير مرتبط رسميًا بشركة Microsoft أو بمطوري الأدوات الخارجية المذكورة.
+
+## معلومات الملف
+
+- المطوّر: **Hakim Bouzourdaz**
+- الإصدار المقترح: **v1.0.0**
+- اسم الملف: `Hakim_Bouzourdaz_PC_Care_AIO.cmd`
+- SHA-256: `6b55a78a69e5fc72c11cc153e05260327ddb3208abe514994578932ed3041732`
+
+## GitHub Release
+
+عند إنشاء إصدار جديد في GitHub، استخدم الوسم `v1.0.0` وارفع ملف `Hakim_Bouzourdaz_PC_Care_AIO.cmd` ضمن **Release assets**. بعد النشر، ضع رابط الإصدار المباشر هنا:
+
+`https://github.com/hbouzourdaz/Hakim-AIO/releases/latest`
+
