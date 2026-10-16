@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Hakim Bouzourdaz PC Care AIO — أدوات صيانة وتشخيص Windows في واجهة واحدة.">
+  <title>Hakim PC Care AIO | تحميل</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b1020;--panel:#121a2e;--text:#f5f7ff;--muted:#aab4cc;--line:#26314b;--accent:#6ee7b7;--accent2:#60a5fa}
+    *{box-sizing:border-box}
+    body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at top,#172747 0%,var(--bg) 55%);font-family:Tahoma,"Segoe UI",Arial,sans-serif;color:var(--text)}
+    main{width:min(100%,720px);text-align:center}
+    .mark{width:66px;height:66px;display:grid;place-items:center;margin:0 auto 22px;border:1px solid #35517a;border-radius:20px;background:linear-gradient(145deg,#1b3154,#11192b);color:var(--accent);font-size:28px;font-weight:800;box-shadow:0 12px 40px #0005}
+    .eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:.08em}
+    h1{font-size:clamp(32px,7vw,54px);line-height:1.15;margin:14px 0 12px;letter-spacing:-.04em}
+    .sub{margin:0 auto;max-width:540px;color:var(--muted);font-size:17px;line-height:1.9}
+    .actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:30px 0 26px}
+    a.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:12px;text-decoration:none;font-weight:800;transition:transform .15s,filter .15s}
+    a.btn:hover{transform:translateY(-2px);filter:brightness(1.07)}
+    .primary{background:var(--accent);color:#062017;box-shadow:0 8px 26px #6ee7b722}
+    .secondary{border:1px solid var(--line);color:var(--text);background:#ffffff08}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:30px}
+    .feature{padding:16px 10px;border:1px solid var(--line);border-radius:14px;background:#ffffff04}
+    .feature b{display:block;font-size:14px;margin-bottom:6px}
+    .feature span{font-size:12px;color:var(--muted)}
+    .notice{margin:22px auto 0;max-width:590px;color:#aab4cc;font-size:12px;line-height:1.8}
+    footer{margin-top:38px;color:#7886a3;font-size:12px}
+    @media(max-width:540px){.features{grid-template-columns:1fr}.feature{display:flex;align-items:center;justify-content:space-between;text-align:right;padding:14px 16px}.feature b{margin:0}.sub{font-size:15px}}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">HB</div>
+    <div class="eyebrow">HAKIM BOUZOURDAZ PRESENTS</div>
+    <h1>Hakim PC Care <span style="color:var(--accent)">AIO</span></h1>
+    <p class="sub">أدوات صيانة وتشخيص Windows في مكان واحد، بواجهة بسيطة وواضحة.</p>
+    <div class="actions">
+      <!-- ضع ملف run.bat بجانب index.html داخل مجلد public قبل النشر -->
+      <a class="btn primary" href="/run.bat" download>
+        <span aria-hidden="true">⬇</span> تحميل البرنامج
+      </a>
+      <a class="btn secondary" href="#features">استكشف المميزات</a>
+    </div>
+    <section class="features" id="features" aria-label="المميزات">
+      <div class="feature"><b>تشخيص النظام</b><span>معلومات الجهاز وفحوصات أساسية</span></div>
+      <div class="feature"><b>أدوات الصيانة</b><span>مساعدة في الفحص والإصلاح</span></div>
+      <div class="feature"><b>واجهة خفيفة</b><span>تشغيل محلي من Windows</span></div>
+    </section>
+    <p class="notice">يتطلب Windows. راجع محتوى ملفات السكريبت قبل تشغيلها، وشغّل الأدوات الإدارية عند الحاجة فقط.</p>
+    <footer>© <span id="year"></span> Hakim Bouzourdaz · جميع الحقوق محفوظة</footer>
+  </main>
+  <script>document.getElementById("year").textContent=new Date().getFullYear()</script>
+</body>
+</html>
