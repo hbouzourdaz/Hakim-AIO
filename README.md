@@ -9,7 +9,7 @@
 
 > بعد نشر المستودع، يمكن استبدال رابط التحميل النسبي برابط GitHub مباشر بالشكل التالي:
 >
-> `https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/Hakim_Bouzourdaz_PC_Care_AIO.cmd`
+> `https://raw.githubusercontent.com/hbouzourdaz/Hakim-AIO/main/Hakim_Bouzourdaz_PC_Care_AIO.cmd`
 
 ## المميزات
 
