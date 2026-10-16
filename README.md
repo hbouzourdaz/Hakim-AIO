@@ -6,15 +6,15 @@
 
 <p align="center">
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest/download/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
-    <img alt="Latest Version" src="https://img.shields.io/badge/Latest Version?style=for-the-badge&logo=windows&logoColor=white">
+    <img alt="Download Latest Version" src="https://img.shields.io/badge/Download-Latest%20Version-16A34A?style=for-the-badge&logo=windows&logoColor=white">
   </a>
   &nbsp;
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest">
-    <img alt="Releases" src="https://img.shields.io/badge/الإصدارات-Releases-2563EB?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="View Releases" src="https://img.shields.io/badge/View-All%20Releases-2563EB?style=for-the-badge&logo=github&logoColor=white">
   </a>
   &nbsp;
   <a href="https://raw.githubusercontent.com/hbouzourdaz/Hakim-AIO/main/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
-    <img alt="Download" src="https://img.shields.io/badge/عرض%20الملف%20المصدري-Raw-7C3AED?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="View Source Code" src="https://img.shields.io/badge/View-Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
