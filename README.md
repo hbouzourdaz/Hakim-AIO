@@ -6,15 +6,15 @@
 
 <p align="center">
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest/download/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
-    <img alt="تحميل أحدث إصدار" src="https://img.shields.io/badge/⬇%20تحميل%20أحدث%20إصدار-2EA44F?style=for-the-badge&logo=windows&logoColor=white">
+    <img alt="Latest Version" src="https://img.shields.io/badge/⬇%20تحميل%20أحدث%20إصدار-2EA44F?style=for-the-badge&logo=windows&logoColor=white">
   </a>
   &nbsp;
   <a href="https://github.com/hbouzourdaz/Hakim-AIO/releases/latest">
-    <img alt="صفحة الإصدارات" src="https://img.shields.io/badge/الإصدارات-Releases-2563EB?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="Releases" src="https://img.shields.io/badge/الإصدارات-Releases-2563EB?style=for-the-badge&logo=github&logoColor=white">
   </a>
   &nbsp;
   <a href="https://raw.githubusercontent.com/hbouzourdaz/Hakim-AIO/main/Hakim_Bouzourdaz_PC_Care_AIO.cmd">
-    <img alt="تحميل من المصدر" src="https://img.shields.io/badge/عرض%20الملف%20المصدري-Raw-7C3AED?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="Download" src="https://img.shields.io/badge/عرض%20الملف%20المصدري-Raw-7C3AED?style=for-the-badge&logo=github&logoColor=white">
   </a>
 </p>
 
