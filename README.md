@@ -46,5 +46,5 @@
 
 عند إنشاء إصدار جديد في GitHub، استخدم الوسم `v1.0.0` وارفع ملف `Hakim_Bouzourdaz_PC_Care_AIO.cmd` ضمن **Release assets**. بعد النشر، ضع رابط الإصدار المباشر هنا:
 
-`https://github.com/USERNAME/REPOSITORY/releases/latest`
+`https://github.com/hbouzourdaz/Hakim-AIO/releases/latest`
 
